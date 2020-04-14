@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.scss";
 import Number from "../Data/Number";
+import Chart from "../Chart/Chart";
+import Entries from "../DataTable/Entries";
 
 const Deploy = () => {
   return (
@@ -13,7 +15,7 @@ const Deploy = () => {
           MustHave Box initialize in mainland of china
         </h3>
 
-        <div className="card zd-content-card">
+        <div className="card zd-content-card clearfix">
           <h4 className="zd-content-title">
             <span className="is-muted emoji" role="img">
               {"📽"}
@@ -56,36 +58,47 @@ const Deploy = () => {
               </p>
               <div className="zd-content-data">
                 <table className="table zd-content-table">
-                  <tr>
-                    <td>
-                      <Number
-                        number="23.6"
-                        title="likes"
-                        suffix="k"
-                        percent={90}
-                      />
-                    </td>
-                    <td>
-                      <Number
-                        number="317"
-                        title="shares"
-                        percent={40}
-                        color="red"
-                      />
-                    </td>
-                    <td>
-                      <Number
-                        number="2"
-                        title="comments"
-                        percent={80}
-                        color="green"
-                      />
-                    </td>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <Number
+                          number="34.1"
+                          title="likes"
+                          suffix="k"
+                          percent={90}
+                        />
+                      </td>
+                      <td>
+                        <Number
+                          number="1.1"
+                          title="comments"
+                          percent={78}
+                          suffix="k"
+                          color="green"
+                        />
+                      </td>
+                      <td>
+                        <Number
+                          number="665"
+                          title="shares"
+                          percent={45}
+                          color="red"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="card zd-content-card clearfix">
+          <Chart />
+        </div>
+
+        <div className="card zd-content-card clearfix">
+          <Entries />
         </div>
       </div>
     </div>
