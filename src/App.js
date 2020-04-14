@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.scss";
+import Layouts from "./components/Layouts";
+import Deploy from "./components/Deploy";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hello</h1>
-      </header>
+    <div className="app content">
+      <Layouts>
+        <Deploy />
+      </Layouts>
     </div>
   );
 }

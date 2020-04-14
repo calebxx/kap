@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--blue);
+  height: 64px;
+  margin-bottom: 32px;
+}
+
+.menu {
+  display: table;
+  
+  .menu-li {
+    display: table-cell;
+    padding: 1em 1.5em 0.5em;
+
+    &:hover {
+      border-bottom: 1px solid var(--white);
+    }
+  }
+  
+  .menu-link {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 200;
+    letter-spacing: 1px; 
+  }
+}

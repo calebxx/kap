@@ -1,0 +1,22 @@
+body {
+  background-color: var(--gray-xs);
+}
+
+.emoji {
+  margin-right: 0.5em;
+}
+
+.card {
+  background-color: var(--white);
+  padding: 1rem 2rem 0;
+  border-radius: 4px;
+  box-shadow: 0 0 2px var(--gray);
+}
+
+.clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

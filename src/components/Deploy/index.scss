@@ -1,0 +1,42 @@
+.deploys {
+  margin-right: 320px;
+}
+
+.zd-content-detail {
+  margin-left: 150px;
+}
+
+.zd-content-title {
+  font-weight: normal;
+}
+
+.zd-content-media {
+  float: left;
+  width: 128px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.zd-content-text {
+  color: var(--gray-xxl)
+}
+
+.zd-content-data {
+  padding: 5%;
+}
+
+.zd-content-table.table {
+  td {
+    border-bottom: none;
+  }
+}
+
+.tag-button {
+  padding: 0 0.3em;
+  height: 26px;
+  min-height: 26px;
+  line-height: 24px;
+  margin-left: 6px;
+}

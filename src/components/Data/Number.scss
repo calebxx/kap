@@ -1,0 +1,36 @@
+.zd-data-circle {
+  background: conic-gradient(var(--blue) 90%, var(--gray) 0);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 4px;
+
+  .zd-data-circle-inner {
+    background-color: var(--white);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
+
+.zd-data-number {
+  font-size: 28px;
+  font-weight: 200;
+  margin-right: 0.1em;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.zd-data-suffix {
+  color: var(--gray-xl);
+  line-height: 1;
+  font-size: 18px;
+}
+
+.zd-data-title {
+  color: var(--gray-xxl);
+}
