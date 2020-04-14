@@ -12,13 +12,15 @@
     "react-dom": "^16.13.1",
     "react-router": "^5.1.2",
     "react-scripts": "3.4.1",
-    "recharts": "^1.8.5"
+    "recharts": "^1.8.5",
+    "serve": "^11.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s ./build -l 3000"
   },
   "eslintConfig": {
     "extends": "react-app"
